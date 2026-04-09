@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Serene Editorial | Psicoterapia e Bem-estar</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container": "#f5ece7",
+              "on-background": "#2a2423",
+              "surface-variant": "#f0e1da",
+              "surface-container-highest": "#e8d5cc",
+              "inverse-primary": "#ffd9df",
+              "primary-fixed": "#ffdad9",
+              "tertiary": "#8c4a32",
+              "outline": "#857371",
+              "tertiary-container": "#ffdad9",
+              "primary-container": "#ffdad9",
+              "on-surface-variant": "#534341",
+              "surface-container-low": "#fff8f5",
+              "secondary": "#775653",
+              "on-secondary": "#ffffff",
+              "on-primary-container": "#41000b",
+              "on-surface": "#201a1a",
+              "secondary-container": "#ffdad7",
+              "surface-bright": "#fffbff",
+              "inverse-surface": "#362f2e",
+              "surface": "#fffbff",
+              "primary-dim": "#6b1b2a",
+              "outline-variant": "#d8c2bf",
+              "primary": "#6B1B2A",
+              "background": "#fffbff",
+              "on-primary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#f9ebe6",
+              "surface-dim": "#e4d8d6",
+              "surface-tint": "#6B1B2A"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Manrope", "sans-serif"],
+              "label": ["Manrope", "sans-serif"],
+              "noto-serif": ["Noto Serif", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3, .font-serif { font-family: 'Noto Serif', serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar (Shared Component {{DATA:COMPONENTS:COMPONENTS_8}}) -->
+<nav class="sticky top-0 w-full z-50 bg-[#fff8f5] dark:bg-stone-950">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<a class="font-noto-serif text-2xl font-bold text-[#6B1B2A] dark:text-[#eb9ba9]" href="#">The Serene Editorial</a>
+<div class="hidden md:flex items-center space-x-10 font-noto-serif text-lg tracking-tight">
+<a class="text-[#6B1B2A] border-b-2 border-[#6B1B2A] pb-1 hover:text-[#4d0316] transition-colors duration-300" href="#">Início</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="#">Sobre</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="#">Serviços</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="#">Blog</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="#">Contato</a>
+</div>
+<button class="bg-[#6B1B2A] text-[#ffffff] px-6 py-3 rounded-full font-semibold hover:bg-[#4d0316] transition-colors scale-95 duration-200 ease-in-out">
+            Agendar Sessão
+        </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[800px] flex items-center overflow-hidden bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-12 items-center z-10 py-20">
+<div class="space-y-8">
+<span class="text-xs tracking-[0.2em] font-bold text-primary uppercase">Cuidado Compassivo • Dra. Helena Martins</span>
+<h1 class="text-5xl md:text-7xl font-serif text-on-surface leading-[1.1] -tracking-wide">
+                    Encontre clareza no seu <span class="italic text-primary">espaço interior.</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-md leading-relaxed font-body">
+                    Uma abordagem editorial para a saúde mental. Oferecemos um refúgio para o autoconhecimento e o equilíbrio emocional em um mundo em constante movimento.
+                </p>
+<div class="flex items-center gap-6 pt-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-xl shadow-primary/10 hover:bg-primary-dim transition-colors">
+                        Agendar Consulta
+                    </button>
+<button class="text-primary font-bold underline underline-offset-8 decoration-outline-variant/30 hover:decoration-primary transition-all">
+                        Saiba Mais
+                    </button>
+</div>
+</div>
+<div class="relative flex justify-center">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative translate-x-4 translate-y-4">
+<img class="w-full h-full object-cover" data-alt="Calm therapist office with soft sunlight streaming through linen curtains, a comfortable armchair, and a lush green plant in the corner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG4mIjLoLi-WTA6p4U4HF8SbFPmAk8VPJy65BKUlxgGMMDjjmvKFLSmCoTJcSyzIrdj8zKH32IPqeIj3uEHSp_04RyyzfAWMgARwXJX0ht_agb5xumnFPMhfTvYXpyR_viOF_88_2HdRcWnx2sMoPZbs_daHCG7LUwU5A989H9RwvxUPHtQZb5FFo58F8l31z_QEhT8eJuVZ2aDowzH9S7euyfVYwFdhkerK7hooVk2Hm6mDndJBtvxXOcR9jp86U_6o6wDSEhMPY"/>
+</div>
+<div class="absolute inset-0 border-2 border-primary/20 rounded-xl -translate-x-4 -translate-y-4 pointer-events-none"></div>
+</div>
+</div>
+<!-- Background Decoration -->
+<div class="absolute top-0 right-0 w-1/3 h-full bg-surface-variant/30 -z-0 opacity-50 skew-x-12"></div>
+</section>
+<!-- Vantagens Section (Asymmetric Bento) -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="text-3xl font-serif text-on-surface mb-4">Vantagens da Terapia</h2>
+<div class="w-20 h-1 bg-primary"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Card 1 -->
+<div class="md:col-span-7 bg-surface-container-high p-12 rounded-xl flex flex-col justify-between group hover:bg-surface-container-highest transition-colors duration-500">
+<span class="material-symbols-outlined text-4xl text-primary mb-8" data-icon="auto_awesome">auto_awesome</span>
+<div>
+<h3 class="text-2xl font-serif mb-4">Crescimento Pessoal</h3>
+<p class="text-on-surface-variant leading-relaxed">Descubra novos horizontes internos e desenvolva ferramentas para navegar pelos desafios da vida com maior resiliência e propósito.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="md:col-span-5 bg-primary-container p-12 rounded-xl flex flex-col justify-between text-on-primary-container">
+<span class="material-symbols-outlined text-4xl mb-8" data-icon="balance">balance</span>
+<div>
+<h3 class="text-2xl font-serif mb-4">Equilíbrio Emocional</h3>
+<p class="opacity-80 leading-relaxed">Aprenda a acolher suas emoções e encontrar um centro de calma em meio ao caos cotidiano.</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="md:col-span-12 bg-surface-container-low p-12 rounded-xl flex flex-col md:flex-row items-center gap-8">
+<div class="flex-1">
+<span class="material-symbols-outlined text-4xl text-primary mb-8" data-icon="psychology_alt">psychology_alt</span>
+<h3 class="text-2xl font-serif mb-4">Suporte Profissional</h3>
+<p class="text-on-surface-variant leading-relaxed">Um acompanhamento ético, científico e profundamente humano para as suas questões mais complexas.</p>
+</div>
+<div class="w-full md:w-1/3 aspect-video rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
+<img class="w-full h-full object-cover" data-alt="Professional therapist nodding with empathy while listening attentively in a bright, modern consulting room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMCNBdDL-8fNwFl3fccXFbqQFJoh1Xpn5zjCbbFM5Crm8IipeuV2zgi0xyISjh1sImSQzsejs6tHJt9HvGlI6ua8gODOQChtCUueAR9m1xeaDhVRquWm0v_N5_qwb3X70Ce4ZWP1S3_Yh6LmsVgBAqPXdBUA7w9aCW5K1kH-8mQ6V4vqttqeZzAwOYgAVEVsAjkk1zycCwhT6e1eV_jGNUAH7oDbQo1DuXkDfWk7DhcDQIvbmj5G9tDlhUxV-yfKuBFXtOD82IYG8"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sobre Section -->
+<section class="py-32 overflow-hidden bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-24 items-center">
+<div class="relative">
+<img class="rounded-xl shadow-lg w-full aspect-[3/4] object-cover" data-alt="Close-up portrait of Dra. Helena Martins" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvySU7rmQdXw5kjvYV138wTgKud6Bca_YmJc0LfjVUvwRTI3vR13--2VUfG44NE2IPBAx_7W6nPjMAN-yEaynEh4e-zUD8Ut1vzMwRtxkojhAHtL1W0QlQe7vGIcKFm94Xk2FSVP0yuWFAZiyjzYmH6-ICFBV3zV-ht99DKpJC5uZylfka6HJ8giQ9r6sob2NZ_L2cuHiJl_egIkH6T_elniT0Mu8HiUcNtAcCf61mBz_MrBCBmu-CuZ0pHMyQcWt1t-wUtFpupiA"/>
+<div class="absolute -bottom-10 -right-10 bg-secondary-container p-10 rounded-xl hidden lg:block text-on-secondary-container">
+<p class="font-serif italic text-2xl max-w-[200px]">"Curar não é tornar-se perfeito, mas tornar-se inteiro."</p>
+</div>
+</div>
+<div class="space-y-6">
+<h2 class="text-4xl font-serif text-on-surface">Sobre a Jornada</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                    Acreditamos que cada indivíduo possui uma história única que merece ser ouvida com atenção e respeito. Minha prática é fundamentada na empatia e na ciência, proporcionando um espaço seguro para que você possa explorar sua narrativa pessoal.
+                </p>
+<p class="text-on-surface-variant leading-relaxed">
+                    Com mais de uma década de experiência clínica, Dra. Helena Martins foca em abordagens humanistas que priorizam o bem-estar integral e a autonomia do paciente.
+                </p>
+<div class="pt-6">
+<a class="inline-flex items-center gap-4 group" href="#">
+<span class="w-12 h-12 rounded-full border border-primary flex items-center justify-center group-hover:bg-primary group-hover:text-on-primary transition-all">
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</span>
+<span class="font-bold text-primary">Conheça minha trajetória</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Reflection Quote -->
+<section class="bg-primary-container py-24 text-on-primary-container">
+<div class="max-w-4xl mx-auto px-8 text-center space-y-8">
+<span class="material-symbols-outlined text-5xl opacity-30" data-icon="format_quote">format_quote</span>
+<p class="text-3xl md:text-4xl font-serif leading-snug">
+                "A terapia é o ato radical de escolher a si mesmo em um mundo que tenta constantemente definir quem você deve ser."
+            </p>
+<p class="text-primary font-bold tracking-widest uppercase text-sm">Conscientização sobre Saúde Mental</p>
+</div>
+</section>
+<!-- Seção de serviços -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-20 space-y-4">
+<h2 class="text-4xl font-serif">Nossos Serviços</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">Oferecemos diferentes modalidades de atendimento para nos adaptarmos às suas necessidades específicas e ao seu momento de vida.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Service 1 -->
+<div class="p-8 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors group border border-surface-variant">
+<div class="mb-8 w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="person">person</span>
+</div>
+<h3 class="text-xl font-serif mb-4 text-[#6B1B2A]">Individual</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">Foco total no seu desenvolvimento pessoal, lidando com ansiedade, depressão e questões existenciais.</p>
+<hr class="border-outline-variant/20 mb-6"/>
+<p class="text-sm font-bold text-primary flex items-center gap-2">
+                        Sessões de 50 min <span class="material-symbols-outlined text-xs" data-icon="schedule">schedule</span>
+</p>
+</div>
+<!-- Service 2 -->
+<div class="p-8 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors group border border-surface-variant">
+<div class="mb-8 w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="group">group</span>
+</div>
+<h3 class="text-xl font-serif mb-4 text-[#6B1B2A]">Casal &amp; Família</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">Mediação de conflitos e fortalecimento de vínculos afetivos através da comunicação assertiva.</p>
+<hr class="border-outline-variant/20 mb-6"/>
+<p class="text-sm font-bold text-primary flex items-center gap-2">
+                        Apoio Relacional <span class="material-symbols-outlined text-xs" data-icon="favorite">favorite</span>
+</p>
+</div>
+<!-- Service 3 -->
+<div class="p-8 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors group border border-surface-variant">
+<div class="mb-8 w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="laptop_mac">laptop_mac</span>
+</div>
+<h3 class="text-xl font-serif mb-4 text-[#6B1B2A]">Online</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">Flexibilidade e conforto para realizar suas sessões de qualquer lugar do mundo com total segurança.</p>
+<hr class="border-outline-variant/20 mb-6"/>
+<p class="text-sm font-bold text-primary flex items-center gap-2">
+                        Alcance Global <span class="material-symbols-outlined text-xs" data-icon="public">public</span>
+</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / Chamada para contato -->
+<section class="py-24 max-w-7xl mx-auto px-8">
+<div class="bg-primary rounded-3xl p-12 md:p-20 text-center text-on-primary relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full opacity-10">
+<img class="w-full h-full object-cover" data-alt="Abstract soft focus texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG174-fxAvddJkvvA1GCQeqA1A3HbDqGC-lJLs8p-dMe-l1NbyxGR0T85Ewcukj91GwMKQDVqCAOdoMe-FuMVhckTa8OdlzEe7830OJw80MIm0b5YWwZcGvB2AS18ef7TThIZvpxTQ5aAcOMuOxpImNWBq-unKHcgbVAmoVvb38Jg_wSMEM6VR98SQuVtI4tf0g9ea-r5VcWR3DDB-fFGXry4vTxw3C_GGcOAH5lIInkmd7I80UEduZ73YYgbDuqoNrsjBsqQKc8Y"/>
+</div>
+<div class="relative z-10 space-y-8">
+<h2 class="text-4xl md:text-5xl font-serif max-w-2xl mx-auto">Pronto para dar o primeiro passo?</h2>
+<p class="text-on-primary/80 max-w-lg mx-auto font-body">Comece sua jornada de autodescoberta hoje mesmo. Agende uma conversa inicial sem compromisso.</p>
+<div class="flex flex-col md:flex-row justify-center gap-4">
+<button class="bg-surface-container-lowest text-primary px-10 py-4 rounded-full font-bold hover:bg-on-primary transition-colors">
+                        Agendar Consulta via WhatsApp
+                    </button>
+<button class="border border-on-primary/30 text-on-primary px-10 py-4 rounded-full font-bold hover:bg-on-primary/10 transition-colors">
+                        Ver FAQ
+                    </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component {{DATA:COMPONENTS:COMPONENTS_8}}) -->
+<footer class="bg-[#f5ece7] dark:bg-stone-900">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 w-full font-noto-serif text-sm leading-relaxed max-w-screen-2xl mx-auto">
+<div class="flex flex-col gap-4 text-center md:text-left">
+<div class="font-noto-serif text-xl font-semibold text-[#6B1B2A]">The Serene Editorial</div>
+<p class="text-stone-500 dark:text-stone-400 max-w-xs">Promovendo saúde mental através de um olhar atento, empático e editorial.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Política de Privacidade</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Termos de Uso</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Perguntas Frequentes</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Instagram</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">LinkedIn</a>
+</div>
+<div class="text-stone-500 dark:text-stone-400 text-center md:text-right">
+            © 2024 The Serene Editorial. Todos os direitos reservados.
+        </div>
+</div>
+</footer>
+</body></html>

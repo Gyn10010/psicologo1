@@ -1,0 +1,187 @@
+Okay, I can definitely create a project PRD (Product Requirements Document) or brief template for you. Since you haven't provided specific context yet, I'll create a comprehensive template with placeholders and guidance.
+
+**To get the most out of this, please provide the "context" you mentioned!** Once you give me the details, I can fill in these sections specifically for your project.
+
+---
+
+### **Project PRD / Brief Template**
+
+**Document Version:** 1.0
+**Date:** [Current Date]
+**Author:** [Your Name/Team]
+**Stakeholders:** [Product Lead, Engineering Lead, Design Lead, Marketing Lead, etc.]
+
+---
+
+### **1. Executive Summary**
+
+*   **[PROJECT NAME]:** [A concise, descriptive name for your project, e.g., "Mobile App Onboarding Flow Redesign"]
+*   **Problem/Opportunity:** [Briefly state the core problem this project aims to solve or the opportunity it aims to seize. Max 2-3 sentences.]
+    *   *Example: "Our current mobile app onboarding conversion rate is 30% below industry average, leading to significant user churn in the first 24 hours. This project aims to redesign the onboarding experience to improve initial engagement and retention."*
+*   **Solution Overview:** [A high-level description of the proposed solution. Max 2-3 sentences.]
+    *   *Example: "We will implement a new, interactive onboarding flow that highlights key app features, allows for progressive profile creation, and integrates personalized content recommendations from the start."*
+*   **Key Goals:** [What are the most critical outcomes you expect? Max 1-2 bullet points.]
+    *   *Example: Increase onboarding completion rate by 15% within 3 months post-launch.*
+    *   *Example: Reduce time-to-first-value for new users by 25%.*
+
+---
+
+### **2. Introduction**
+
+*   **2.1. Project Vision:** [The aspirational, long-term impact of this project. Why does it matter to the business and our users?]
+    *   *Example: "To empower every new user with a seamless, engaging, and personalized introduction to our platform, ensuring they quickly discover value and become active, loyal members of our community."*
+*   **2.2. Problem Statement / Opportunity:** [Detail the specific problem(s) or untapped opportunity this project addresses. Provide data or evidence if available.]
+    *   *Example: "Analytics show a 40% drop-off on screen 3 of the current onboarding flow, where users are asked for optional demographic data. User feedback surveys also indicate confusion about the app's core benefits during initial setup."*
+*   **2.3. Project Scope (High-Level):** [What is broadly *included* in this project, and what is explicitly *excluded*?]
+    *   **In Scope:**
+        *   *Example: Redesign of the entire mobile app (iOS and Android) onboarding experience.*
+        *   *Example: A/B testing framework for new onboarding flows.*
+        *   *Example: Analytics instrumentation for tracking onboarding progress.*
+    *   **Out of Scope:**
+        *   *Example: Redesign of the web-based onboarding flow.*
+        *   *Example: Development of new backend services beyond what's required for the new onboarding data points.*
+        *   *Example: In-app tutorial guides post-onboarding completion.*
+
+---
+
+### **3. Goals & Objectives**
+
+[SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals for the project.]
+
+*   **3.1. Primary Goal:**
+    *   *Example: Increase mobile app onboarding completion rate from X% to Y% within 3 months of launch.*
+*   **3.2. Secondary Goals:**
+    *   *Example: Improve Day 7 user retention for new users by Z% within 6 months of launch.*
+    *   *Example: Decrease customer support tickets related to onboarding confusion by W% in the first month post-launch.*
+    *   *Example: Achieve an average User Satisfaction Score (USS) of [score]% for the new onboarding flow.*
+
+---
+
+### **4. Target Audience / Users**
+
+*   **Who are the primary users this project aims to serve?** [Describe their characteristics, needs, pain points relevant to this project.]
+    *   *Example: "First-time mobile app users who are new to our product. They are typically tech-savvy but may be unfamiliar with our specific features. Their primary need is to quickly understand the app's value proposition and how to perform core actions."*
+*   **Any secondary users?**
+    *   *Example: Existing users who might create new accounts or reactivate dormant accounts.*
+
+---
+
+### **5. Key Features & Functionality (High-Level)**
+
+[What will the solution *do*? List the core components or user flows. This can be expanded into detailed user stories and requirements in a full PRD.]
+
+*   **5.1. Feature 1: Interactive Welcome Tour**
+    *   *Description: A series of visually engaging screens that introduce key app features with short animations/videos.*
+*   **5.2. Feature 2: Progressive Profile Creation**
+    *   *Description: Allow users to provide essential information upfront and defer optional profile details to later, post-onboarding.*
+*   **5.3. Feature 3: Personalized Content Selection**
+    *   *Description: Users can select their interests during onboarding to immediately receive a customized feed/dashboard upon completion.*
+*   **5.4. Feature 4: "Skip for Now" Option**
+    *   *Description: Provide a clear option to skip non-essential steps and return to them later.*
+*   **5.5. Feature 5: Onboarding Progress Indicator**
+    *   *Description: A visual indicator (e.g., progress bar) to show users where they are in the flow.*
+
+---
+
+### **6. User Experience & Design Considerations**
+
+*   **6.1. User Flows:** [Briefly describe the ideal user journey through the new features.]
+    *   *Example: User opens app -> Welcome screens -> Login/Sign Up -> Core Value Pitch -> Interest Selection -> First Personalized Feed.*
+*   **6.2. Key Design Principles:** [What design philosophies will guide this project?]
+    *   *Example: Simplicity, Clarity, Personalization, Delightful Animations, Mobile-First.*
+*   **6.3. Mockups/Wireframes (Link to relevant assets):**
+    *   *Example: [Link to Figma/Sketch/InVision project for initial designs]*
+
+---
+
+### **7. Technical Requirements & Considerations**
+
+*   **7.1. Technology Stack:** [Any specific tech dependencies or choices?]
+    *   *Example: React Native for mobile, existing NodeJS backend, new API endpoints for personalized content.*
+*   **7.2. Integrations:** [What existing systems will this need to connect with?]
+    *   *Example: Analytics platform (e.g., Mixpanel, Google Analytics), CRM (e.g., Salesforce), A/B testing tool (e.g., Optimizely).*
+*   **7.3. Performance & Scalability:** [Any specific targets?]
+    *   *Example: Onboarding screens must load within 2 seconds on a 3G connection.*
+*   **7.4. Security & Privacy:** [Any specific requirements or concerns?]
+    *   *Example: Compliance with GDPR/CCPA for user data collection.*
+
+---
+
+### **8. Success Metrics & KPIs**
+
+[How will you measure if the project is successful, tied back to the goals in Section 3.]
+
+*   **8.1. Primary Metric:**
+    *   *Example: Onboarding Completion Rate (from app install to first personalized feed view).*
+*   **8.2. Secondary Metrics:**
+    *   *Example: Day 1/7/30 Retention Rate.*
+    *   *Example: Time-to-First-Action (e.g., time until a user performs their first core interaction).*
+    *   *Example: User Satisfaction Score (USS) via in-app surveys.*
+    *   *Example: Number of support tickets related to onboarding.*
+
+---
+
+### **9. Assumptions, Constraints, & Risks**
+
+*   **9.1. Assumptions:** [What must be true for this project to succeed?]
+    *   *Example: We will have sufficient engineering resources allocated for a 3-month development cycle.*
+    *   *Example: User testing results from early prototypes will validate our core design hypotheses.*
+    *   *Example: The existing backend infrastructure can support the new data flows without significant re-architecture.*
+*   **9.2. Constraints:** [Limitations that affect the project (time, budget, resources, technology, etc.).]
+    *   *Example: Hard launch deadline of [Date] due to [External Event].*
+    *   *Example: Limited budget for external agency support.*
+    *   *Example: Dependency on a third-party API provider for [functionality] which has a known rate limit.*
+*   **9.3. Risks & Mitigation:** [What could go wrong, and what's the plan if it does?]
+    *   *Example Risk: User adoption of the new onboarding flow is lower than expected.*
+        *   *Mitigation: Implement robust A/B testing, conduct extensive user research pre-launch, quick iteration post-launch based on data.*
+    *   *Example Risk: Technical integration with [System] proves more complex than anticipated.*
+        *   *Mitigation: Dedicated spike sprint for integration, identify key technical contacts, have a rollback plan.*
+
+---
+
+### **10. High-Level Timeline & Milestones**
+
+*   **Phase 1: Discovery & Planning:** [Dates]
+    *   *Example: User Research Complete: [Date]*
+    *   *Example: Initial Designs Approved: [Date]*
+    *   *Example: Technical Scoping Complete: [Date]*
+    *   *Example: PRD Finalized: [Date]*
+*   **Phase 2: Development & QA:** [Dates]
+    *   *Example: Alpha Build Ready: [Date]*
+    *   *Example: Beta Testing Initiated: [Date]*
+    *   *Example: Feature Freeze: [Date]*
+*   **Phase 3: Launch & Post-Launch:** [Dates]
+    *   *Example: Production Release (Staged Rollout): [Date]*
+    *   *Example: Post-Launch Review (1 Week): [Date]*
+    *   *Example: Post-Launch Review (1 Month): [Date]*
+
+---
+
+### **11. Future Considerations / Phase 2 (Optional)**
+
+[What could come next after this project's initial launch?]
+
+*   *Example: A/B testing different content personalization algorithms.*
+*   *Example: Expanding the new onboarding flow to the web platform.*
+*   *Example: Implementing a "return to onboarding" feature for users who skipped it.*
+
+---
+
+### **12. Appendices**
+
+*   **12.1. User Stories:** [Link to JIRA/Confluence or list key user stories here if not fully detailed in section 5.]
+*   **12.2. Research Data:** [Links to user research reports, competitive analysis, market data.]
+*   **12.3. Analytics Reports:** [Links to current performance dashboards relevant to the problem.]
+*   **12.4. Design Specifications:** [Links to detailed UI/UX specs, style guides.]
+
+---
+
+**Now, please provide your project context!** Tell me:
+
+*   **What kind of product or service is this for?** (e.g., e-commerce app, SaaS platform, content website, internal tool)
+*   **What's the core problem or opportunity you're addressing?**
+*   **What's the proposed solution or feature?**
+*   **Any specific goals you have in mind?**
+*   **Any known constraints or key stakeholders?**
+
+With that information, I can populate this template for you!

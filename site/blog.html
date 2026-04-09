@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog | Diário de Bem-Estar - The Serene Editorial</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-primary-fixed": "#3b0713",
+                        "on-primary-container": "#400012",
+                        "primary-fixed-dim": "#ffb2bd",
+                        "outline-variant": "#d5c2c4",
+                        "on-tertiary-container": "#2c150e",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#25191a",
+                        "tertiary-fixed": "#ffdbd0",
+                        "background": "#fffbff",
+                        "inverse-on-surface": "#f9eded",
+                        "surface-variant": "#f2dedf",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#f9eded",
+                        "secondary-dim": "#e3bdc0",
+                        "on-secondary-container": "#2b1517",
+                        "error-container": "#ffdad6",
+                        "tertiary": "#77594f",
+                        "primary": "#6B1B2A",
+                        "tertiary-fixed-dim": "#e6beaf",
+                        "tertiary-container": "#ffdbd0",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#22191a",
+                        "surface-bright": "#fffbff",
+                        "outline": "#837375",
+                        "surface-container-low": "#fff0f1",
+                        "secondary-container": "#fad9db",
+                        "surface-dim": "#e4d7d8",
+                        "surface": "#fffbff",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed-variant": "#594345",
+                        "primary-fixed": "#ffd9de",
+                        "surface-container-highest": "#f2dedf",
+                        "tertiary-dim": "#e6beaf",
+                        "error-dim": "#ffb4ab",
+                        "on-tertiary-fixed": "#2c150e",
+                        "primary-container": "#ffd9de",
+                        "secondary-fixed-dim": "#e3bdc0",
+                        "on-background": "#22191a",
+                        "on-primary-fixed-variant": "#71333f",
+                        "surface-tint": "#91424f",
+                        "surface-container": "#f9eded",
+                        "on-surface-variant": "#514345",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#382e2f",
+                        "secondary": "#755659",
+                        "inverse-primary": "#ffb2bd",
+                        "error": "#ba1a1a",
+                        "primary-dim": "#91424f",
+                        "secondary-fixed": "#ffd9db",
+                        "on-tertiary-fixed-variant": "#5c4238",
+                        "on-error-container": "#410002"
+                    },
+                    fontFamily: {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #fffbff;
+            color: #22191a;
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Noto Serif', serif;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 40px rgba(107, 27, 42, 0.06);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-[#fff8f5] dark:bg-stone-950">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<a class="font-noto-serif text-2xl font-bold text-[#6B1B2A] dark:text-[#eb9ba9]" href="./index.html">The Serene Editorial</a>
+<div class="hidden md:flex items-center space-x-10 font-noto-serif text-lg tracking-tight">
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./index.html">Início</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./sobre.html">Sobre</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./servicos.html">Serviços</a>
+<a class="text-[#6B1B2A] border-b-2 border-[#6B1B2A] pb-1 hover:text-[#4d0316] transition-colors duration-300" href="./blog.html">Blog</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./contato.html">Contato</a>
+</div>
+<a class="bg-[#6B1B2A] text-[#ffffff] px-6 py-3 rounded-full font-semibold hover:bg-[#4d0316] transition-colors scale-95 duration-200 ease-in-out" href="./contato.html">
+            Agendar Sessão
+        </a>
+</div>
+</nav>
+<main class="pt-16 pb-24 px-6 md:px-12 max-w-7xl mx-auto">
+<!-- Header Section -->
+<header class="mb-16 md:mb-24">
+<span class="inline-block label-md text-[10px] tracking-[0.2em] uppercase text-primary mb-4 font-bold">Reflexões e Insights</span>
+<h1 class="text-5xl md:text-7xl font-serif font-bold text-on-surface tracking-tight leading-none mb-8">Blog - Diário de Bem-Estar</h1>
+<div class="flex flex-wrap gap-8 items-end justify-between border-t border-outline-variant/20 pt-8">
+<p class="max-w-xl text-lg text-on-surface-variant font-light leading-relaxed">
+                Um espaço dedicado ao cultivo da saúde mental, onde a ciência encontra a sensibilidade para apoiar sua jornada de autodescoberta.
+            </p>
+<div class="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
+<span class="px-5 py-2 rounded-full bg-primary text-on-primary text-sm font-medium whitespace-nowrap cursor-pointer transition-colors">Todos</span>
+<span class="px-5 py-2 rounded-full border border-outline-variant/30 text-on-surface/70 text-sm font-medium whitespace-nowrap cursor-pointer hover:border-primary hover:text-primary transition-all">Saúde Mental</span>
+<span class="px-5 py-2 rounded-full border border-outline-variant/30 text-on-surface/70 text-sm font-medium whitespace-nowrap cursor-pointer hover:border-primary hover:text-primary transition-all">Autocuidado</span>
+<span class="px-5 py-2 rounded-full border border-outline-variant/30 text-on-surface/70 text-sm font-medium whitespace-nowrap cursor-pointer hover:border-primary hover:text-primary transition-all">Relacionamentos</span>
+<span class="px-5 py-2 rounded-full border border-outline-variant/30 text-on-surface/70 text-sm font-medium whitespace-nowrap cursor-pointer hover:border-primary hover:text-primary transition-all">Ansiedade</span>
+</div>
+</div>
+</header>
+<!-- Featured Post Section -->
+<section class="mb-24">
+<div class="relative group grid md:grid-cols-12 gap-0 md:gap-12 bg-surface-container-low rounded-xl overflow-hidden transition-all duration-500 hover:bg-surface-container-high">
+<div class="md:col-span-7 h-[400px] md:h-[600px] overflow-hidden">
+<img alt="Woman meditating in a sunlit room" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Peaceful woman sitting in meditation by a large window with soft sunlight filtering through sheer curtains, calm neutral tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWCZHTFFNCxE2mpiwOJ3WWZBKUkMXyRVUMZ0xJ6AGwTEYlE5RBkYDQlDf2u87SwDYQmf7TQ1mpGBYO9gR45pl4WGRzk7rhEsuDA-Jzo7oMKQnFq1a6sPzgiOeCfsHo0sGlT_qP53m_52ZEr8hcDqzgVznhkhlwXG8-obNRaGyqGbpCZ6sv35Khf_71-BvWLBSKWdZlJRykX4qGkQRPcEIhadArfRa1c1459v_L081BFCLC-Xxz_UBli4B_pFKgPqgNk7UI_WbKLmY"/>
+</div>
+<div class="md:col-span-5 flex flex-col justify-center p-8 md:p-12">
+<div class="mb-6 flex items-center gap-4">
+<span class="text-primary font-bold label-md text-[10px] tracking-widest uppercase">Destaque</span>
+<div class="h-[1px] flex-grow bg-outline-variant/20"></div>
+<span class="text-on-surface-variant/60 text-xs font-medium">15 de Outubro, 2024</span>
+</div>
+<h2 class="text-3xl md:text-5xl font-serif font-bold text-on-surface leading-tight mb-6 group-hover:text-primary transition-colors">A Arte de Respirar no Caos do Cotidiano</h2>
+<p class="text-on-surface-variant text-lg font-light leading-relaxed mb-8">
+                    Como pequenas pausas conscientes podem transformar nossa resposta fisiológica ao estresse e criar um santuário interno em dias agitados.
+                </p>
+<div class="mt-auto">
+<button class="group/btn flex items-center gap-3 text-primary font-bold text-sm tracking-widest uppercase py-4 transition-all hover:gap-5" type="button">
+                        Ler mais
+                        <span class="material-symbols-outlined text-xl">arrow_right_alt</span>
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Blog Grid -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-12">
+<article class="flex flex-col">
+<div class="aspect-[4/5] mb-6 overflow-hidden rounded-md group">
+<img alt="Yoga pose at dawn" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Zen morning yoga session on a wooden deck overlooking a misty forest valley, soft sunrise light hitting the morning dew" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVJM7u0wupAUW_uBTxFRiYdamhI9UeuEpJ29xeU59Xawhjh3HSqeldAKd5DElfXChxVDnUk_xLYA3LERSqU_1Zs4k_4Imz_VwBFT-_DyPPHk_z56R5SDPig-Ouuw7Qk6pB8tnfTRGaf5OXCcMplu7AjO2WoG_GgZROSy9tBFs-ASpYMzmmFGSYZtnKO5gkgBqseLBAb-FPhnQ9g1AZg4YgD8y4Jq-kYT0k782GVJUFHx4sgGuPcwFd4zf4qZFwyi4Ezkxzja88X5U"/>
+</div>
+<span class="text-[10px] tracking-[0.2em] font-bold text-primary uppercase mb-3">Autocuidado</span>
+<h3 class="text-2xl font-serif font-bold mb-4 leading-snug">Criando Rituais Matinais para uma Mente Serena</h3>
+<p class="text-on-surface-variant font-light text-base leading-relaxed mb-6 line-clamp-3">
+                Exploramos como os primeiros 20 minutos do seu dia ditam o ritmo da sua saúde mental e emocional para as próximas horas.
+            </p>
+<a class="mt-auto text-primary font-bold text-xs tracking-widest uppercase inline-flex items-center gap-2 border-b border-primary/20 pb-1 self-start hover:border-primary transition-all" href="#">
+                Ler mais
+            </a>
+</article>
+<article class="flex flex-col">
+<div class="aspect-[4/5] mb-6 overflow-hidden rounded-md group">
+<img alt="Stack of smooth pebbles" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Macro photography of perfectly balanced smooth river stones on a bed of fine sand, minimalist and tranquil aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0W3RZc-qtJPcrrdoqyTNcdNWKhIsiwleIpmfTaFRWACcd5yY_jahoGzW75d30BrzuBkthXj7O5bWPlJXIKxT0TG9whfqJS7z-KGeNBDr0WpAQ0YcxTcDvSJsmkikTEdY-XXGSzH1-61ERUybkPjGSoQMLuVSvPDROou4EgKP92E9r2QSSzfJ_NsQEUL7xCIKNPiBc7bxvb1nxNpn0ZTMJKUZOv4nxNTtOVHqMCCyGfKgAwGZtWT8CtG-LIKUwMQkZvqa1X2k5T9c"/>
+</div>
+<span class="text-[10px] tracking-[0.2em] font-bold text-primary uppercase mb-3">Ansiedade</span>
+<h3 class="text-2xl font-serif font-bold mb-4 leading-snug">O Equilíbrio Entre Produtividade e Presença</h3>
+<p class="text-on-surface-variant font-light text-base leading-relaxed mb-6 line-clamp-3">
+                Em um mundo que exige pressa, como manter a eficácia sem sacrificar a sanidade e o estar presente no agora.
+            </p>
+<a class="mt-auto text-primary font-bold text-xs tracking-widest uppercase inline-flex items-center gap-2 border-b border-primary/20 pb-1 self-start hover:border-primary transition-all" href="#">
+                Ler mais
+            </a>
+</article>
+<article class="flex flex-col">
+<div class="aspect-[4/5] mb-6 overflow-hidden rounded-md group">
+<img alt="Two cups of tea on a table" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Two steaming ceramic tea cups on a weathered wooden table, soft light, atmosphere of intimate and safe conversation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWSLHwxi4pfVyAm9g2IzDl1ZsFbnKL_b0XSsIyIc5fxZ6CkW7E-n6wKMS1-HoNP9Mrt79T84RyjDm7Obb2jlcZm2qtUoeeZ47BntDCEwJn_IqlIj03AK3HqklGB3svD9MpAuwsqgSZiJd64jpzlJENlmnoy-owcoL3eR4ZnARlm-SpfJokOLQ8TBvkhg7f7pJ9sa4fjpVpG5ha7_5z_EuMdz-WAJRIPTHyZB8lwJYDTvxhkSBVEniDob5cIG3eiTt9wVEmgIZY7FY"/>
+</div>
+<span class="text-[10px] tracking-[0.2em] font-bold text-primary uppercase mb-3">Relacionamentos</span>
+<h3 class="text-2xl font-serif font-bold mb-4 leading-snug">Limites: O Ato Mais Profundo de Amor Próprio</h3>
+<p class="text-on-surface-variant font-light text-base leading-relaxed mb-6 line-clamp-3">
+                Aprender a dizer não aos outros é, muitas vezes, dizer sim à sua própria paz e integridade emocional.
+            </p>
+<a class="mt-auto text-primary font-bold text-xs tracking-widest uppercase inline-flex items-center gap-2 border-b border-primary/20 pb-1 self-start hover:border-primary transition-all" href="#">
+                Ler mais
+            </a>
+</article>
+<article class="md:col-span-2 flex flex-col md:flex-row gap-8 bg-surface-container p-8 rounded-xl items-center">
+<div class="w-full md:w-1/2 aspect-video overflow-hidden rounded-lg">
+<img alt="Person by the ocean" class="w-full h-full object-cover" data-alt="A person standing peacefully on a misty shore at twilight, the vast grey ocean blending with the horizon, serene atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpuNiN2AMMczPLgYHekVdO6T8YKiKyf1YzQD468qdJtJRM2ziR8Deq_31qdr5Ir_ZVJDYfLLFqIqSPN3U-vsSRe-anJCSxsvFRw2iBpXyLPvjwThv--a6VcRh6G7BLyJMUPuuXpIBFgOU2WADt0bVaL0TC3TSimUF86dxoYh2XpxmUGSJDvbgXOW3T7mp0cbV0mudC5GeV3cehUpmLRIM3hqXpiSOY45fEfJ4afAGbt4GSKWqa5EG6rydOZ3QYxmvR_OFmxy3_sxY"/>
+</div>
+<div class="w-full md:w-1/2">
+<span class="text-[10px] tracking-[0.2em] font-bold text-primary uppercase mb-3">Saúde Mental</span>
+<h3 class="text-3xl font-serif font-bold mb-4 leading-tight">Navegando em Mares de Incerteza</h3>
+<p class="text-on-surface-variant font-light text-base leading-relaxed mb-6">
+                    Ferramentas psicológicas para lidar com as transições da vida e encontrar firmeza quando o chão parece faltar sob os pés.
+                </p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase inline-flex items-center gap-2 border-b border-primary/20 pb-1 hover:border-primary transition-all" href="#">
+                    Ler mais
+                </a>
+</div>
+</article>
+<article class="flex flex-col">
+<div class="aspect-[4/5] mb-6 overflow-hidden rounded-md group">
+<img alt="A notebook and pen" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Top down view of a minimal linen notebook and fountain pen on a textured white surface with a sprig of dried lavender" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgJz7GNLtvpCCDwMYkow1A_952zEsNpB_cMJJd02kkwdHHqVTsHcaeXe_fslEEOgkc1uW8Rf4qAQKkVzqQE2xsCVi_DVBqIqABpSwpGvJEQDudqkPtaZenX-NNJ5i9MbJTd4qJUzgol0C98ovOMh_cX71hzceGVhYtyU471VtyRINAADL1uv4jTKoqKl73ZlzT0Ndxgywc1-WBvJExav8nE6_kxPW1x-JYVPylljkIgZ-zWmgo3Iqjgk6zZl9TVpPwJcWsIIlVWqc"/>
+</div>
+<span class="text-[10px] tracking-[0.2em] font-bold text-primary uppercase mb-3">Escrita Curativa</span>
+<h3 class="text-2xl font-serif font-bold mb-4 leading-snug">Journaling: O Diálogo com o Inconsciente</h3>
+<p class="text-on-surface-variant font-light text-base leading-relaxed mb-6 line-clamp-3">
+                A prática diária da escrita terapêutica como ferramenta de processamento emocional e clareza mental.
+            </p>
+<a class="mt-auto text-primary font-bold text-xs tracking-widest uppercase inline-flex items-center gap-2 border-b border-primary/20 pb-1 self-start hover:border-primary transition-all" href="#">
+                Ler mais
+            </a>
+</article>
+</section>
+<!-- Newsletter -->
+<section class="mt-32 p-12 md:p-24 bg-secondary-container rounded-3xl text-center">
+<div class="max-w-2xl mx-auto">
+<h2 class="text-4xl md:text-5xl font-serif font-bold text-on-secondary-container mb-8">"Cuidar da sua mente não é um luxo, é o alicerce de uma vida vibrante."</h2>
+<p class="text-on-secondary-container/80 text-lg mb-12 font-light">Assine nossa newsletter editorial para receber reflexões mensais diretamente em sua caixa de entrada.</p>
+<form class="flex flex-col md:flex-row gap-4 items-center">
+<input class="w-full bg-transparent border-b-2 border-on-secondary-container/20 py-4 px-2 focus:border-primary focus:ring-0 outline-none transition-all placeholder:text-on-secondary-container/40" placeholder="Seu e-mail favorito" type="email"/>
+<button class="w-full md:w-auto bg-primary text-on-primary px-10 py-4 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-primary-dim transition-colors" type="submit">Inscrever-se</button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f5ece7] dark:bg-stone-900">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 w-full font-noto-serif text-sm leading-relaxed max-w-screen-2xl mx-auto">
+<div class="flex flex-col gap-4 text-center md:text-left">
+<div class="font-noto-serif text-xl font-semibold text-[#6B1B2A]">The Serene Editorial</div>
+<p class="text-stone-500 dark:text-stone-400 max-w-xs">Promovendo saúde mental através de um olhar atento, empático e editorial.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Política de Privacidade</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Termos de Uso</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Perguntas Frequentes</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Instagram</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">LinkedIn</a>
+</div>
+<div class="text-stone-500 dark:text-stone-400 text-center md:text-right">
+            © 2024 The Serene Editorial. Todos os direitos reservados.
+        </div>
+</div>
+</footer>
+</body></html>
+
