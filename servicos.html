@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Serviços | The Serene Editorial</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container": "#f5ece7",
+              "error-dim": "#791903",
+              "on-primary-fixed": "#3a0912",
+              "on-background": "#2a2422",
+              "surface-variant": "#f0e3db",
+              "error": "#a73b21",
+              "error-container": "#fd795a",
+              "surface-container-highest": "#ebded5",
+              "on-secondary-fixed": "#2b4156",
+              "tertiary-fixed": "#fde7d3",
+              "inverse-primary": "#fccdd4",
+              "secondary-dim": "#3f556a",
+              "tertiary-fixed-dim": "#eed9c6",
+              "primary-fixed": "#ffdadc",
+              "tertiary": "#6c5c4d",
+              "outline": "#857371",
+              "tertiary-container": "#fde7d3",
+              "inverse-on-surface": "#f5ece7",
+              "primary-container": "#ffdadc",
+              "secondary-container": "#cee5ff",
+              "primary-fixed-dim": "#eb9ba9",
+              "surface-bright": "#fff8f5",
+              "on-primary-fixed-variant": "#6b1b2a",
+              "on-tertiary-fixed-variant": "#6d5e4f",
+              "inverse-surface": "#362f2d",
+              "on-secondary-container": "#3e5469",
+              "surface": "#fff8f5",
+              "primary-dim": "#8c4a55",
+              "tertiary-dim": "#5f5142",
+              "outline-variant": "#d8c2bf",
+              "on-secondary-fixed-variant": "#475e73",
+              "primary": "#6B1B2A",
+              "on-tertiary-fixed": "#504234",
+              "background": "#fff8f5",
+              "on-primary": "#ffffff",
+              "on-tertiary": "#fff7f3",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#f0e3db",
+              "surface-dim": "#e3d7d1",
+              "surface-tint": "#6B1B2A"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Manrope", "sans-serif"],
+              "label": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      .perspective-text {
+        text-shadow: 0 10px 20px rgba(47, 52, 46, 0.05);
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-[#fff8f5] dark:bg-stone-950">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<a class="font-noto-serif text-2xl font-bold text-[#6B1B2A] dark:text-[#eb9ba9]" href="./index.html">The Serene Editorial</a>
+<div class="hidden md:flex items-center space-x-10 font-noto-serif text-lg tracking-tight">
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./index.html">Início</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./sobre.html">Sobre</a>
+<a class="text-[#6B1B2A] border-b-2 border-[#6B1B2A] pb-1 hover:text-[#4d0316] transition-colors duration-300" href="./servicos.html">Serviços</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./blog.html">Blog</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./contato.html">Contato</a>
+</div>
+<a class="bg-[#6B1B2A] text-[#ffffff] px-6 py-3 rounded-full font-semibold hover:bg-[#4d0316] transition-colors scale-95 duration-200 ease-in-out" href="./contato.html">
+            Agendar Sessão
+        </a>
+</div>
+</nav>
+<main class="pt-16 pb-24">
+<!-- Hero Section -->
+<header class="max-w-7xl mx-auto px-8 mb-24 text-center">
+<span class="font-label text-xs tracking-[0.2em] text-primary mb-4 block uppercase font-bold">Cuidado Especializado</span>
+<h1 class="font-headline text-5xl md:text-7xl text-on-surface mb-8 tracking-tight max-w-4xl mx-auto">Nossos Serviços Terapêuticos</h1>
+<p class="font-body text-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+            Um espaço seguro para cultivar a resiliência emocional e o autoconhecimento. Cada abordagem é adaptada à sua jornada única de cura e crescimento.
+        </p>
+</header>
+<!-- Grade de serviços -->
+<section class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+<!-- Individual Therapy -->
+<div class="md:col-span-8 bg-surface-container-low p-10 md:p-16 rounded-xl flex flex-col md:flex-row gap-12 group hover:bg-surface-variant transition-colors duration-500">
+<div class="flex-1">
+<div class="flex items-center gap-4 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="psychology">psychology</span>
+<h2 class="font-headline text-3xl text-on-surface">Terapia Individual</h2>
+</div>
+<p class="text-on-surface-variant leading-relaxed mb-8">
+                        Um mergulho profundo em sua história pessoal. Trabalhamos questões de identidade, traumas passados e o desenvolvimento de ferramentas práticas para navegar a vida com mais clareza.
+                    </p>
+<div class="space-y-4 mb-10">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1" data-icon="check_circle">check_circle</span>
+<span class="text-on-surface-variant text-sm">Fortalecimento do autoconhecimento</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1" data-icon="check_circle">check_circle</span>
+<span class="text-on-surface-variant text-sm">Processamento de emoções complexas</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1" data-icon="check_circle">check_circle</span>
+<span class="text-on-surface-variant text-sm">Desenvolvimento de limites saudáveis</span>
+</div>
+</div>
+<a class="font-label text-sm uppercase tracking-widest text-primary border-b border-primary/30 pb-1 hover:border-primary transition-all font-bold" href="./contato.html">Saiba mais sobre o processo</a>
+</div>
+<div class="md:w-1/3 h-64 md:h-auto rounded-lg overflow-hidden relative">
+<img alt="Pessoa em meditação silenciosa" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" data-alt="Calm close-up of a person sitting in a sunlit room, focusing on their breath, soft natural lighting and warm tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKEejb7alzKpDcIl6zZ-J6bNOlj7HmpydiGXksrim1XIOWdmX9QXwlAgsfZVA1oWV6E9vY69e5LFy4F9zIX4sW4W_7t0wR3s3OtEq5vXeR-odHE5wRns6mhoIbMowAs-V0RCTlpA6We4Ggy01gIrVhNceTL2aydUuAWwSaoNM6K9UZLVFTm_zV0HcSuRSMgeLnk3C4skouXnYDFgMHxkmd-U2k5r4KVI_r6n9inadHzwqVHSZVDmEFxBMSHeQG4FHR3hyiMeFlMTA"/>
+</div>
+</div>
+<!-- Online Consultations -->
+<div class="md:col-span-4 bg-primary-container p-10 rounded-xl flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-on-primary-fixed-variant text-4xl mb-6" data-icon="video_chat">video_chat</span>
+<h2 class="font-headline text-2xl text-on-primary-fixed-variant mb-4">Consultas Online</h2>
+<p class="text-on-primary-fixed-variant/80 text-sm leading-relaxed mb-8">
+                        Apoio terapêutico onde quer que você esteja. Mantendo a mesma conexão e profundidade do presencial, com o conforto da sua casa.
+                    </p>
+</div>
+<div>
+<div class="p-4 bg-white/40 rounded-lg mb-6 text-xs text-on-primary-fixed-variant italic">
+                        "A tecnologia como ponte para o bem-estar mental, sem barreiras geográficas."
+                    </div>
+<a class="w-full block text-center py-4 bg-primary text-on-primary rounded-full font-medium text-sm hover:opacity-90 transition-opacity" href="./contato.html">Agendar Online</a>
+</div>
+</div>
+<!-- Anxiety Treatment -->
+<div class="md:col-span-6 bg-surface-container-high p-10 rounded-xl relative overflow-hidden group">
+<div class="relative z-10">
+<div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-primary" data-icon="air">air</span>
+</div>
+<h2 class="font-headline text-2xl text-on-surface mb-4">Tratamento de Ansiedade</h2>
+<p class="text-on-surface-variant leading-relaxed mb-8">
+                        Técnicas baseadas em evidências para acalmar o sistema nervoso e retomar o controle sobre pensamentos intrusivos e preocupações excessivas.
+                    </p>
+<ul class="grid grid-cols-2 gap-4 text-xs font-bold text-primary uppercase tracking-tighter">
+<li>Gestão de Crises</li>
+<li>Mindfulness</li>
+<li>Regulação Emocional</li>
+<li>Terapia Focada</li>
+</ul>
+</div>
+</div>
+<!-- Depression -->
+<div class="md:col-span-6 bg-surface-container-lowest p-10 rounded-xl border border-outline-variant/30 group">
+<div class="flex flex-col h-full justify-between">
+<div class="flex gap-8 items-start">
+<div class="flex-1">
+<h2 class="font-headline text-2xl text-on-surface mb-4">Tratamento para Depressão</h2>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                                Um caminho gentil de retorno à vitalidade. Focamos na reconstrução do sentido, na ativação comportamental e no suporte empático.
+                            </p>
+</div>
+<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 border-4 border-surface-container">
+<img alt="Flores silvestres sob a luz da manhã" class="w-full h-full object-cover" data-alt="Close up of delicate white flowers reaching towards morning sunlight, representing hope and renewal, soft focus background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5BIqmchu1qjQy2E46FSiCinSU4qxXgRyf7EEOmC4CoVYwxM-2mryxkHCEeOsJgC-RYkpWKw9cIY24no8HeMg44J5FidxZOk7jAxYDjy-d92otJHjLluNTY3apDzGvp8GMk0BNrPX6rE-9gBlJYiTgrQ72qe2fMSwdhVTo3QZfXCnHsWv23qPUSBFWbHTCl43qYufPD-gizTBckfvT3eHjCxSaEeq3zNuD1mi0i45wkP-63R1J2JcC0elwkD56PNh64T-ak6hH4-E"/>
+</div>
+</div>
+<div class="mt-8">
+<a class="flex items-center gap-2 text-primary font-bold group" href="./contato.html">
+<span>Ver detalhes da abordagem</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Philosophy Section -->
+<section class="max-w-5xl mx-auto px-8 mt-32">
+<div class="bg-surface-container p-16 md:p-24 rounded-xl text-center relative overflow-hidden">
+<span class="material-symbols-outlined text-primary/10 absolute -top-10 -left-10 text-[15rem] leading-none" data-icon="format_quote">format_quote</span>
+<h3 class="font-headline text-3xl md:text-4xl text-primary relative z-10 leading-snug">
+                "A terapia não é apenas sobre resolver problemas, é sobre descobrir a liberdade de ser quem você realmente é, sem o peso do que lhe aconteceu."
+            </h3>
+<div class="mt-10 font-label text-xs tracking-widest text-primary font-bold opacity-80">FILOSOFIA EDITORIAL</div>
+</div>
+</section>
+<!-- Contato / Próximo passo -->
+<section class="max-w-7xl mx-auto px-8 mt-32 text-center">
+<div class="max-w-2xl mx-auto bg-surface-container-high p-12 rounded-xl">
+<h2 class="font-headline text-2xl mb-4 text-on-surface">Pronto para começar?</h2>
+<p class="text-on-surface-variant mb-8">Oferecemos uma conversa inicial de 15 minutos gratuita para entender como podemos ajudar.</p>
+<div class="flex flex-col md:flex-row gap-4 justify-center">
+<a class="bg-primary px-8 py-4 rounded-full text-on-primary font-medium transition-transform hover:scale-105" href="./contato.html">Agendar Conversa Gratuita</a>
+<a class="border border-primary px-8 py-4 rounded-full text-primary font-medium hover:bg-primary/5 transition-colors" href="./contato.html">Ver Horários</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f5ece7] dark:bg-stone-900">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 w-full font-noto-serif text-sm leading-relaxed max-w-screen-2xl mx-auto">
+<div class="flex flex-col gap-4 text-center md:text-left">
+<div class="font-noto-serif text-xl font-semibold text-[#6B1B2A]">The Serene Editorial</div>
+<p class="text-stone-500 dark:text-stone-400 max-w-xs">Promovendo saúde mental através de um olhar atento, empático e editorial.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Política de Privacidade</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Termos de Uso</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Perguntas Frequentes</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Instagram</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">LinkedIn</a>
+</div>
+<div class="text-stone-500 dark:text-stone-400 text-center md:text-right">
+            © 2024 The Serene Editorial. Todos os direitos reservados.
+        </div>
+</div>
+</footer>
+</body></html>
+

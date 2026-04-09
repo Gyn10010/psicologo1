@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contato e Agendamento | The Serene Editorial</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container": "#f5ece7",
+              "error-dim": "#791903",
+              "on-primary-fixed": "#3a0a13",
+              "on-background": "#2a1e1e",
+              "surface-variant": "#eee0da",
+              "error": "#a73b21",
+              "error-container": "#fd795a",
+              "surface-container-highest": "#e5d5cf",
+              "on-secondary-fixed": "#2b4156",
+              "tertiary-fixed": "#fde7d3",
+              "inverse-primary": "#ffb3ba",
+              "secondary-dim": "#3f556a",
+              "tertiary-fixed-dim": "#eed9c6",
+              "primary-fixed": "#ffd9de",
+              "tertiary": "#6c5c4d",
+              "outline": "#857371",
+              "tertiary-container": "#fde7d3",
+              "inverse-on-surface": "#9c9d99",
+              "primary-container": "#ffd9de",
+              "secondary-container": "#cee5ff",
+              "on-surface-variant": "#534342",
+              "on-error-container": "#6e1400",
+              "secondary-fixed": "#cee5ff",
+              "surface-container-low": "#fff8f5",
+              "secondary": "#4b6177",
+              "on-tertiary-container": "#635445",
+              "on-error": "#fff7f6",
+              "on-secondary": "#f6f9ff",
+              "on-primary-container": "#40000f",
+              "on-surface": "#201a1a",
+              "primary-fixed-dim": "#ffb2bc",
+              "surface-bright": "#fff8f5",
+              "on-primary-fixed-variant": "#6b1b2a",
+              "on-tertiary-fixed-variant": "#6d5e4f",
+              "inverse-surface": "#362f2f",
+              "on-secondary-container": "#3e5469",
+              "surface": "#fff8f5",
+              "primary-dim": "#4d0316",
+              "tertiary-dim": "#5f5142",
+              "outline-variant": "#d8c2bf",
+              "on-secondary-fixed-variant": "#475e73",
+              "primary": "#6B1B2A",
+              "on-tertiary-fixed": "#504234",
+              "background": "#fff8f5",
+              "on-primary": "#ffffff",
+              "on-tertiary": "#fff7f3",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#f0e1db",
+              "surface-dim": "#e8d6d0",
+              "surface-tint": "#6B1B2A"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .font-serif { font-family: 'Noto Serif', serif; }
+      .font-sans { font-family: 'Manrope', sans-serif; }
+      .font-noto-serif { font-family: 'Noto Serif', serif; }
+    </style>
+</head>
+<body class="bg-surface font-sans text-on-surface selection:bg-primary-container">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-[#fff8f5] dark:bg-stone-950">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<a class="font-noto-serif text-2xl font-bold text-[#6B1B2A] dark:text-[#eb9ba9]" href="./index.html">The Serene Editorial</a>
+<div class="hidden md:flex items-center space-x-10 font-noto-serif text-lg tracking-tight">
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./index.html">Início</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./sobre.html">Sobre</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./servicos.html">Serviços</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#4d0316] transition-colors duration-300" href="./blog.html">Blog</a>
+<a class="text-[#6B1B2A] border-b-2 border-[#6B1B2A] pb-1 hover:text-[#4d0316] transition-colors duration-300" href="./contato.html">Contato</a>
+</div>
+<a class="bg-[#6B1B2A] text-[#ffffff] px-6 py-3 rounded-full font-semibold hover:bg-[#4d0316] transition-colors scale-95 duration-200 ease-in-out" href="./contato.html">
+            Agendar Sessão
+        </a>
+</div>
+</nav>
+<main class="pt-16 pb-24 px-8 max-w-7xl mx-auto">
+<!-- Hero Section -->
+<header class="mb-24 max-w-3xl">
+<span class="font-label text-[0.7rem] tracking-[0.2em] text-primary font-bold uppercase mb-4 block">COMECE HOJE</span>
+<h1 class="font-headline text-5xl md:text-6xl text-on-surface leading-tight mb-8">
+            O primeiro passo para o seu <span class="italic">bem-estar</span> começa com uma conversa.
+        </h1>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed">
+            Escolher priorizar sua saúde mental é um ato de coragem. Estamos aqui para ouvir, acolher e guiar você em sua jornada de autodescoberta e equilíbrio.
+        </p>
+</header>
+<!-- Main Bento Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Card de contato -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-10 md:p-16 rounded-lg relative overflow-hidden group border border-outline-variant/10">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-container/20 rounded-bl-full -mr-16 -mt-16 transition-transform duration-500 group-hover:scale-110"></div>
+<h2 class="font-headline text-3xl mb-12">Envie uma Mensagem</h2>
+<form class="space-y-10">
+<div class="relative">
+<label class="block font-label text-[0.75rem] uppercase tracking-wider text-on-surface-variant mb-2">Nome Completo</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary transition-all duration-300 py-2 px-0 text-lg placeholder:text-outline-variant/30" placeholder="Como podemos chamar você?" type="text"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="relative">
+<label class="block font-label text-[0.75rem] uppercase tracking-wider text-on-surface-variant mb-2">E-mail</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary transition-all duration-300 py-2 px-0 text-lg placeholder:text-outline-variant/30" placeholder="exemplo@email.com" type="email"/>
+</div>
+<div class="relative">
+<label class="block font-label text-[0.75rem] uppercase tracking-wider text-on-surface-variant mb-2">Telefone</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary transition-all duration-300 py-2 px-0 text-lg placeholder:text-outline-variant/30" placeholder="(00) 00000-0000" type="tel"/>
+</div>
+</div>
+<div class="relative">
+<label class="block font-label text-[0.75rem] uppercase tracking-wider text-on-surface-variant mb-2">Como podemos ajudar?</label>
+<textarea class="w-full bg-transparent border-0 border-b border-outline-variant/40 focus:ring-0 focus:border-primary transition-all duration-300 py-2 px-0 text-lg placeholder:text-outline-variant/30 resize-none" placeholder="Conte-nos brevemente o motivo do seu contato..." rows="4"></textarea>
+</div>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full font-medium hover:opacity-90 transition-all flex items-center gap-3" type="submit">
+                    Enviar Mensagem
+                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</form>
+</div>
+<!-- Sidebar Info -->
+<div class="lg:col-span-5 space-y-12">
+<!-- Opções rápidas de contato -->
+<div class="bg-surface-container-low p-8 rounded-lg space-y-8 border border-outline-variant/10">
+<div class="flex items-start gap-6">
+<div class="bg-primary-container w-12 h-12 flex items-center justify-center rounded-full text-primary shrink-0">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="font-label text-[0.7rem] tracking-wider text-primary font-bold uppercase mb-1">Telefone</p>
+<p class="text-xl font-medium text-on-surface">+55 (11) 98765-4321</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="bg-surface-container-highest w-12 h-12 flex items-center justify-center rounded-full text-primary shrink-0">
+<span class="material-symbols-outlined">chat</span>
+</div>
+<div>
+<p class="font-label text-[0.7rem] tracking-wider text-primary font-bold uppercase mb-1">WhatsApp</p>
+<a class="text-xl font-medium text-on-surface flex items-center gap-2 hover:text-primary transition-colors" href="#">
+                            Agendamento Rápido
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Office Address & Map -->
+<div class="space-y-6">
+<div class="bg-surface p-2 rounded-lg border border-outline-variant/10">
+<div class="w-full h-64 rounded-md overflow-hidden bg-surface-container flex items-center justify-center relative">
+<img alt="Consultório em São Paulo" class="w-full h-full object-cover opacity-40 grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqU5bOCzLNRfFBq3NURHhhV9SD-cK6h7e7slLduHuQkeHfrL-n-UP3bpsNyZ4fJkjo132X7WxMfHGO0sHgE7NH-d8IitzsywEYm9ln0P2Jp_XTV5Oa08g1WQZlVmA6J9XIIcXYOQVWeIxFl5J7LQ7VwTbHWNn2xrtl-lNHChGvl-LWEb61ya1-jEv_-p1wasgXR58upskhrfhgjM562ChnFeJESct50V-9mAB_IWIMDwKXbi8X3NRybPKb3doFlhM4oJ0mP6JJIsI"/>
+<div class="absolute inset-0 bg-primary/5 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 bg-primary text-on-primary rounded-full flex items-center justify-center shadow-xl animate-pulse">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+</div>
+</div>
+</div>
+<div class="px-2">
+<p class="font-label text-[0.7rem] tracking-wider text-on-surface-variant font-bold uppercase mb-2">Nosso Consultório</p>
+<h3 class="text-xl font-headline mb-2">Edifício Harmonia</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                        Rua das Camélias, 123 - Sala 402<br/>
+                        Vila Mariana, São Paulo - SP
+                    </p>
+</div>
+</div>
+<!-- Reflection Quote -->
+<div class="bg-primary-container p-12 rounded-lg relative overflow-hidden">
+<span class="material-symbols-outlined text-primary/10 text-7xl absolute -top-4 -left-4 font-variation-settings: 'FILL' 1;">format_quote</span>
+<p class="font-headline text-2xl text-on-primary-container leading-snug relative z-10 italic">
+                    "O autoconhecimento é o início de toda a sabedoria. Cada sessão é um novo espaço para se reencontrar."
+                </p>
+</div>
+</div>
+</div>
+</main>
+<!-- Success Section -->
+<section class="bg-surface-container-low py-24 px-8 border-y border-outline-variant/10">
+<div class="max-w-7xl mx-auto text-center space-y-8">
+<h2 class="font-headline text-4xl text-on-surface">Pronto para começar?</h2>
+<p class="max-w-2xl mx-auto text-on-surface-variant text-lg">
+            Não há tempo "certo" para buscar ajuda. O momento ideal é quando você sente que merece viver com mais clareza e leveza.
+        </p>
+<div class="flex flex-wrap justify-center gap-6 pt-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-medium hover:opacity-90 transition-all shadow-lg shadow-primary/10">
+                Ver Disponibilidade
+            </button>
+<button class="border border-outline-variant/40 px-8 py-4 rounded-full font-medium hover:bg-surface-container-high transition-all">
+                Dúvidas Frequentes
+            </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#f5ece7] dark:bg-stone-900">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 w-full font-noto-serif text-sm leading-relaxed max-w-screen-2xl mx-auto">
+<div class="flex flex-col gap-4 text-center md:text-left">
+<div class="font-noto-serif text-xl font-semibold text-[#6B1B2A]">The Serene Editorial</div>
+<p class="text-stone-500 dark:text-stone-400 max-w-xs">Promovendo saúde mental através de um olhar atento, empático e editorial.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Política de Privacidade</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Termos de Uso</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Perguntas Frequentes</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">Instagram</a>
+<a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#6B1B2A] transition-colors" href="#">LinkedIn</a>
+</div>
+<div class="text-stone-500 dark:text-stone-400 text-center md:text-right">
+            © 2024 The Serene Editorial. Todos os direitos reservados.
+        </div>
+</div>
+</footer>
+</body></html>
+
